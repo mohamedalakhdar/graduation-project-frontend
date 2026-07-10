@@ -1,0 +1,92 @@
+/**
+ * Static Student Data
+ * Simple mock records — no fetching, no filtering
+ */
+
+// import { Student, Program } from '@/types';
+
+// export const PROGRAMS: Program[] = [
+//     { id: '1', name: 'Computer Science', code: 'CS' },
+//     { id: '2', name: 'Engineering', code: 'ENG' },
+//     { id: '3', name: 'Business Administration', code: 'BUS' },
+//     { id: '4', name: 'Law', code: 'LAW' },
+//     { id: '5', name: 'Medicine', code: 'MED' },
+// ];
+
+// export const students: Student[] = [
+//     {
+//         id: '1',
+//         userName: 'john_doe',
+//         email: 'john.doe@university.edu',
+//         password: 'SecurePass123!',
+//         phoneNumber: '1234567890',
+//         fullName: 'John Doe',
+//         academicNumber: 'STU-2024-001',
+//         nationalId: 'NAT-123456',
+//         programId: '1',
+//         gpa: 3.85,
+//         status: 'Active',
+//         createdAt: new Date('2024-01-15'),
+//         updatedAt: new Date('2024-01-15'),
+//     },
+//     {
+//         id: '2',
+//         userName: 'jane_smith',
+//         email: 'jane.smith@university.edu',
+//         password: 'StrongPass456!',
+//         phoneNumber: '1234567891',
+//         fullName: 'Jane Smith',
+//         academicNumber: 'STU-2024-002',
+//         nationalId: 'NAT-123457',
+//         programId: '1',
+//         gpa: 2.5,
+//         status: 'Warning',
+//         createdAt: new Date('2024-01-15'),
+//         updatedAt: new Date('2024-01-15'),
+//     },
+//     {
+//         id: '3',
+//         userName: 'mike_wilson',
+//         email: 'mike.wilson@university.edu',
+//         password: 'Secure789!Pass',
+//         phoneNumber: '1234567892',
+//         fullName: 'Mike Wilson',
+//         academicNumber: 'STU-2024-003',
+//         nationalId: 'NAT-123458',
+//         programId: '2',
+//         gpa: 3.5,
+//         status: 'Active',
+//         createdAt: new Date('2024-01-15'),
+//         updatedAt: new Date('2024-01-15'),
+//     },
+//     {
+//         id: '4',
+//         userName: 'sarah_johnson',
+//         email: 'sarah.johnson@university.edu',
+//         password: 'MyPass2024!@',
+//         phoneNumber: '1234567893',
+//         fullName: 'Sarah Johnson',
+//         academicNumber: 'STU-2024-004',
+//         nationalId: 'NAT-123459',
+//         programId: '3',
+//         gpa: 1.8,
+//         status: 'Dismissed',
+//         createdAt: new Date('2024-01-15'),
+//         updatedAt: new Date('2024-01-15'),
+//     },
+//     {
+//         id: '5',
+//         userName: 'alex_brown',
+//         email: 'alex.brown@university.edu',
+//         password: 'BrownPass#123',
+//         phoneNumber: '1234567894',
+//         fullName: 'Alex Brown',
+//         academicNumber: 'STU-2024-005',
+//         nationalId: 'NAT-123460',
+//         programId: '2',
+//         gpa: 3.2,
+//         status: 'Active',
+//         createdAt: new Date('2024-01-15'),
+//         updatedAt: new Date('2024-01-15'),
+//     },
+// ];
