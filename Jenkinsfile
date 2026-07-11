@@ -1,5 +1,8 @@
 pipeline {
-    agent any
+    agent {
+        label 'jenkins-agent'
+    }
+
     tools {
         jdk 'java22'
         nodejs 'nodejs22'
