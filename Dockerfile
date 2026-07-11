@@ -20,6 +20,8 @@ COPY . .
 
 ENV NEXT_TELEMETRY_DISABLED=1
 
+ENV NEXT_PUBLIC_ENDPOINTS_URL=http://backend-svc:2500
+
 RUN npm run build
 
 ## Stage-3
