@@ -6,6 +6,8 @@ WORKDIR /app
 
 COPY package*.json ./
 
+RUN npm install
+
 RUN npm ci
 
 ## Stage-2
@@ -19,8 +21,6 @@ COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
 ENV NEXT_TELEMETRY_DISABLED=1
-
-ENV NEXT_PUBLIC_ENDPOINTS_URL=http://backend-svc:2500
 
 RUN npm run build
 
